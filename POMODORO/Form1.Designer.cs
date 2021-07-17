@@ -29,10 +29,12 @@ namespace POMODORO
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.title_lbl = new System.Windows.Forms.Label();
             this.title2_lbl = new System.Windows.Forms.Label();
             this.start_btn = new System.Windows.Forms.Button();
             this.quit_btn = new System.Windows.Forms.Button();
+            this.start_timer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // title_lbl
@@ -82,6 +84,11 @@ namespace POMODORO
             this.quit_btn.Text = "QUIT";
             this.quit_btn.UseVisualStyleBackColor = true;
             // 
+            // start_timer
+            // 
+            this.start_timer.Interval = 10;
+            this.start_timer.Tick += new System.EventHandler(this.start_timer_Tick);
+            // 
             // POMODORO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -108,6 +115,7 @@ namespace POMODORO
         private System.Windows.Forms.Label title2_lbl;
         private System.Windows.Forms.Button start_btn;
         private System.Windows.Forms.Button quit_btn;
+        private System.Windows.Forms.Timer start_timer;
     }
 }
 

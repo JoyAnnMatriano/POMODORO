@@ -22,6 +22,8 @@ namespace POMODORO
             int width,
             int height
             );
+
+        int[] start_animation = { 1, 1, 1, 1};
         public POMODORO()
         {
             InitializeComponent();
@@ -30,6 +32,29 @@ namespace POMODORO
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void start_timer_Tick(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 8; i++)
+            {
+                switch (i)
+                {
+                    case 0:
+                        title_lbl.Location = new Point(title_lbl.Location.X, title_lbl.Location.Y + start_animation[i]);
+
+                        break;
+                    case 1:
+                        title2_lbl.Location = new Point(title2_lbl.Location.X, title2_lbl.Location.Y + start_animation[i]);
+                        break;
+                    case 2:
+                        start_btn.Location = new Point(start_btn.Location.X, start_btn.Location.Y + start_animation[i]);
+                        break;
+                    case 3:
+                        quit_btn.Location = new Point(quit_btn.Location.X, quit_btn.Location.Y + start_animation[i]);
+                        break;
+                }
+            }
         }
     }
 }
