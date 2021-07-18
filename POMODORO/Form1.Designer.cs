@@ -29,12 +29,10 @@ namespace POMODORO
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.title_lbl = new System.Windows.Forms.Label();
             this.title2_lbl = new System.Windows.Forms.Label();
             this.start_btn = new System.Windows.Forms.Button();
             this.quit_btn = new System.Windows.Forms.Button();
-            this.start_timer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // title_lbl
@@ -54,11 +52,11 @@ namespace POMODORO
             this.title2_lbl.AutoSize = true;
             this.title2_lbl.Font = new System.Drawing.Font("Rage Italic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.title2_lbl.ForeColor = System.Drawing.Color.White;
-            this.title2_lbl.Location = new System.Drawing.Point(289, 275);
+            this.title2_lbl.Location = new System.Drawing.Point(206, 275);
             this.title2_lbl.Name = "title2_lbl";
-            this.title2_lbl.Size = new System.Drawing.Size(101, 24);
+            this.title2_lbl.Size = new System.Drawing.Size(182, 24);
             this.title2_lbl.TabIndex = 1;
-            this.title2_lbl.Text = "a time to heal";
+            this.title2_lbl.Text = "you can always find time";
             // 
             // start_btn
             // 
@@ -71,6 +69,7 @@ namespace POMODORO
             this.start_btn.TabIndex = 2;
             this.start_btn.Text = "START";
             this.start_btn.UseVisualStyleBackColor = true;
+            this.start_btn.Click += new System.EventHandler(this.start_btn_Click);
             // 
             // quit_btn
             // 
@@ -83,11 +82,7 @@ namespace POMODORO
             this.quit_btn.TabIndex = 2;
             this.quit_btn.Text = "QUIT";
             this.quit_btn.UseVisualStyleBackColor = true;
-            // 
-            // start_timer
-            // 
-            this.start_timer.Interval = 10;
-            this.start_timer.Tick += new System.EventHandler(this.start_timer_Tick);
+            this.quit_btn.Click += new System.EventHandler(this.quit_btn_Click);
             // 
             // POMODORO
             // 
@@ -115,7 +110,6 @@ namespace POMODORO
         private System.Windows.Forms.Label title2_lbl;
         private System.Windows.Forms.Button start_btn;
         private System.Windows.Forms.Button quit_btn;
-        private System.Windows.Forms.Timer start_timer;
     }
 }
 
