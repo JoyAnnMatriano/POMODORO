@@ -33,6 +33,8 @@ namespace POMODORO
             this.title2_lbl = new System.Windows.Forms.Label();
             this.start_btn = new System.Windows.Forms.Button();
             this.quit_btn = new System.Windows.Forms.Button();
+            this.start_timer_btn = new System.Windows.Forms.Button();
+            this.timer_txbx = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // title_lbl
@@ -84,12 +86,39 @@ namespace POMODORO
             this.quit_btn.UseVisualStyleBackColor = true;
             this.quit_btn.Click += new System.EventHandler(this.quit_btn_Click);
             // 
+            // start_timer_btn
+            // 
+            this.start_timer_btn.FlatAppearance.BorderSize = 3;
+            this.start_timer_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.start_timer_btn.Font = new System.Drawing.Font("MS Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.start_timer_btn.ForeColor = System.Drawing.Color.White;
+            this.start_timer_btn.Location = new System.Drawing.Point(534, 336);
+            this.start_timer_btn.Name = "start_timer_btn";
+            this.start_timer_btn.Size = new System.Drawing.Size(174, 54);
+            this.start_timer_btn.TabIndex = 3;
+            this.start_timer_btn.Text = "Start Timer";
+            this.start_timer_btn.UseVisualStyleBackColor = true;
+            // 
+            // timer_txbx
+            // 
+            this.timer_txbx.BackColor = System.Drawing.Color.RosyBrown;
+            this.timer_txbx.Font = new System.Drawing.Font("Showcard Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.timer_txbx.Location = new System.Drawing.Point(534, 247);
+            this.timer_txbx.Multiline = true;
+            this.timer_txbx.Name = "timer_txbx";
+            this.timer_txbx.Size = new System.Drawing.Size(174, 34);
+            this.timer_txbx.TabIndex = 4;
+            this.timer_txbx.Text = "00:00:00";
+            this.timer_txbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // POMODORO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(415, 557);
+            this.ClientSize = new System.Drawing.Size(822, 557);
+            this.Controls.Add(this.timer_txbx);
+            this.Controls.Add(this.start_timer_btn);
             this.Controls.Add(this.quit_btn);
             this.Controls.Add(this.start_btn);
             this.Controls.Add(this.title2_lbl);
@@ -110,6 +139,8 @@ namespace POMODORO
         private System.Windows.Forms.Label title2_lbl;
         private System.Windows.Forms.Button start_btn;
         private System.Windows.Forms.Button quit_btn;
+        private System.Windows.Forms.Button start_timer_btn;
+        private System.Windows.Forms.TextBox timer_txbx;
     }
 }
 
