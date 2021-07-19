@@ -34,6 +34,7 @@ namespace POMODORO
             timer_txbx.Visible = false;
             stop_timer_btn.Visible = false;
             reset_timer_btn.Visible = false;
+            back_main_btn.Visible = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -101,6 +102,12 @@ namespace POMODORO
             h = 0;
         }
 
+        private void main_menu(object sender, EventArgs e)
+        {
+            visibleMain();
+            invisibleSecondForm();
+        }
+
         private void invisibleMain()
         {
             title_lbl.Visible = false;
@@ -110,12 +117,28 @@ namespace POMODORO
             quit_btn.Visible = false;
         }
 
+        private void visibleMain()
+        {
+            title_lbl.Visible = true;
+            title2_lbl.Visible = true;
+            start_btn.Visible = true;
+            quit_btn.Visible = true;
+        }
+        private void invisibleSecondForm()
+        {
+            start_timer_btn.Visible = false;
+            timer_txbx.Visible = false;
+            stop_timer_btn.Visible = false;
+            reset_timer_btn.Visible = false;
+            back_main_btn.Visible = false;
+        }
         private void visibleSecondForm()
         {
             start_timer_btn.Visible = true;
             timer_txbx.Visible = true;
             stop_timer_btn.Visible = true;
             reset_timer_btn.Visible = true;
+            back_main_btn.Visible = true;
         }
 
     }

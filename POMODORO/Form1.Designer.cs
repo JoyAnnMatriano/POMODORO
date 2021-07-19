@@ -37,6 +37,7 @@ namespace POMODORO
             this.timer_txbx = new System.Windows.Forms.TextBox();
             this.stop_timer_btn = new System.Windows.Forms.Button();
             this.reset_timer_btn = new System.Windows.Forms.Button();
+            this.back_main_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // title_lbl
@@ -94,7 +95,7 @@ namespace POMODORO
             this.start_timer_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.start_timer_btn.Font = new System.Drawing.Font("MS Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.start_timer_btn.ForeColor = System.Drawing.Color.White;
-            this.start_timer_btn.Location = new System.Drawing.Point(534, 336);
+            this.start_timer_btn.Location = new System.Drawing.Point(126, 302);
             this.start_timer_btn.Name = "start_timer_btn";
             this.start_timer_btn.Size = new System.Drawing.Size(174, 54);
             this.start_timer_btn.TabIndex = 3;
@@ -105,11 +106,13 @@ namespace POMODORO
             // timer_txbx
             // 
             this.timer_txbx.BackColor = System.Drawing.Color.RosyBrown;
-            this.timer_txbx.Font = new System.Drawing.Font("Showcard Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.timer_txbx.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.timer_txbx.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.timer_txbx.ForeColor = System.Drawing.Color.White;
-            this.timer_txbx.Location = new System.Drawing.Point(534, 247);
+            this.timer_txbx.Location = new System.Drawing.Point(126, 203);
             this.timer_txbx.Multiline = true;
             this.timer_txbx.Name = "timer_txbx";
+            this.timer_txbx.ReadOnly = true;
             this.timer_txbx.Size = new System.Drawing.Size(174, 34);
             this.timer_txbx.TabIndex = 4;
             this.timer_txbx.Text = "00:00:00";
@@ -121,7 +124,7 @@ namespace POMODORO
             this.stop_timer_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.stop_timer_btn.Font = new System.Drawing.Font("MS Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.stop_timer_btn.ForeColor = System.Drawing.Color.White;
-            this.stop_timer_btn.Location = new System.Drawing.Point(534, 396);
+            this.stop_timer_btn.Location = new System.Drawing.Point(126, 367);
             this.stop_timer_btn.Name = "stop_timer_btn";
             this.stop_timer_btn.Size = new System.Drawing.Size(174, 54);
             this.stop_timer_btn.TabIndex = 3;
@@ -135,7 +138,7 @@ namespace POMODORO
             this.reset_timer_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.reset_timer_btn.Font = new System.Drawing.Font("MS Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.reset_timer_btn.ForeColor = System.Drawing.Color.White;
-            this.reset_timer_btn.Location = new System.Drawing.Point(534, 456);
+            this.reset_timer_btn.Location = new System.Drawing.Point(126, 436);
             this.reset_timer_btn.Name = "reset_timer_btn";
             this.reset_timer_btn.Size = new System.Drawing.Size(174, 54);
             this.reset_timer_btn.TabIndex = 3;
@@ -143,15 +146,30 @@ namespace POMODORO
             this.reset_timer_btn.UseVisualStyleBackColor = true;
             this.reset_timer_btn.Click += new System.EventHandler(this.reset_timer_btn_Click);
             // 
+            // back_main_btn
+            // 
+            this.back_main_btn.FlatAppearance.BorderSize = 3;
+            this.back_main_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.back_main_btn.Font = new System.Drawing.Font("MS Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.back_main_btn.ForeColor = System.Drawing.Color.White;
+            this.back_main_btn.Location = new System.Drawing.Point(17, 28);
+            this.back_main_btn.Name = "back_main_btn";
+            this.back_main_btn.Size = new System.Drawing.Size(113, 28);
+            this.back_main_btn.TabIndex = 3;
+            this.back_main_btn.Text = "<- Main Menu";
+            this.back_main_btn.UseVisualStyleBackColor = true;
+            this.back_main_btn.Click += new System.EventHandler(this.main_menu);
+            // 
             // POMODORO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(822, 557);
+            this.ClientSize = new System.Drawing.Size(428, 557);
             this.Controls.Add(this.timer_txbx);
             this.Controls.Add(this.reset_timer_btn);
             this.Controls.Add(this.stop_timer_btn);
+            this.Controls.Add(this.back_main_btn);
             this.Controls.Add(this.start_timer_btn);
             this.Controls.Add(this.quit_btn);
             this.Controls.Add(this.start_btn);
@@ -160,7 +178,7 @@ namespace POMODORO
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "POMODORO";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "POMODORO";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.POMODORO_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -178,6 +196,7 @@ namespace POMODORO
         private System.Windows.Forms.TextBox timer_txbx;
         private System.Windows.Forms.Button stop_timer_btn;
         private System.Windows.Forms.Button reset_timer_btn;
+        private System.Windows.Forms.Button back_main_btn;
     }
 }
 
