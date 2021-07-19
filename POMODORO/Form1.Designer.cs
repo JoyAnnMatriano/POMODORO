@@ -98,11 +98,13 @@ namespace POMODORO
             this.start_timer_btn.TabIndex = 3;
             this.start_timer_btn.Text = "Start Timer";
             this.start_timer_btn.UseVisualStyleBackColor = true;
+            this.start_timer_btn.Click += new System.EventHandler(this.start_timer_btn_Click);
             // 
             // timer_txbx
             // 
             this.timer_txbx.BackColor = System.Drawing.Color.RosyBrown;
             this.timer_txbx.Font = new System.Drawing.Font("Showcard Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.timer_txbx.ForeColor = System.Drawing.Color.White;
             this.timer_txbx.Location = new System.Drawing.Point(534, 247);
             this.timer_txbx.Multiline = true;
             this.timer_txbx.Name = "timer_txbx";
@@ -127,6 +129,7 @@ namespace POMODORO
             this.Name = "POMODORO";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.POMODORO_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
