@@ -35,6 +35,8 @@ namespace POMODORO
             this.quit_btn = new System.Windows.Forms.Button();
             this.start_timer_btn = new System.Windows.Forms.Button();
             this.timer_txbx = new System.Windows.Forms.TextBox();
+            this.stop_timer_btn = new System.Windows.Forms.Button();
+            this.reset_timer_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // title_lbl
@@ -96,7 +98,7 @@ namespace POMODORO
             this.start_timer_btn.Name = "start_timer_btn";
             this.start_timer_btn.Size = new System.Drawing.Size(174, 54);
             this.start_timer_btn.TabIndex = 3;
-            this.start_timer_btn.Text = "Start Timer";
+            this.start_timer_btn.Text = "START";
             this.start_timer_btn.UseVisualStyleBackColor = true;
             this.start_timer_btn.Click += new System.EventHandler(this.start_timer_btn_Click);
             // 
@@ -113,6 +115,34 @@ namespace POMODORO
             this.timer_txbx.Text = "00:00:00";
             this.timer_txbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // stop_timer_btn
+            // 
+            this.stop_timer_btn.FlatAppearance.BorderSize = 3;
+            this.stop_timer_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.stop_timer_btn.Font = new System.Drawing.Font("MS Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.stop_timer_btn.ForeColor = System.Drawing.Color.White;
+            this.stop_timer_btn.Location = new System.Drawing.Point(534, 396);
+            this.stop_timer_btn.Name = "stop_timer_btn";
+            this.stop_timer_btn.Size = new System.Drawing.Size(174, 54);
+            this.stop_timer_btn.TabIndex = 3;
+            this.stop_timer_btn.Text = "STOP";
+            this.stop_timer_btn.UseVisualStyleBackColor = true;
+            this.stop_timer_btn.Click += new System.EventHandler(this.stop_timer_btn_Click);
+            // 
+            // reset_timer_btn
+            // 
+            this.reset_timer_btn.FlatAppearance.BorderSize = 3;
+            this.reset_timer_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.reset_timer_btn.Font = new System.Drawing.Font("MS Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.reset_timer_btn.ForeColor = System.Drawing.Color.White;
+            this.reset_timer_btn.Location = new System.Drawing.Point(534, 456);
+            this.reset_timer_btn.Name = "reset_timer_btn";
+            this.reset_timer_btn.Size = new System.Drawing.Size(174, 54);
+            this.reset_timer_btn.TabIndex = 3;
+            this.reset_timer_btn.Text = "RESET";
+            this.reset_timer_btn.UseVisualStyleBackColor = true;
+            this.reset_timer_btn.Click += new System.EventHandler(this.reset_timer_btn_Click);
+            // 
             // POMODORO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -120,6 +150,8 @@ namespace POMODORO
             this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(822, 557);
             this.Controls.Add(this.timer_txbx);
+            this.Controls.Add(this.reset_timer_btn);
+            this.Controls.Add(this.stop_timer_btn);
             this.Controls.Add(this.start_timer_btn);
             this.Controls.Add(this.quit_btn);
             this.Controls.Add(this.start_btn);
@@ -144,6 +176,8 @@ namespace POMODORO
         private System.Windows.Forms.Button quit_btn;
         private System.Windows.Forms.Button start_timer_btn;
         private System.Windows.Forms.TextBox timer_txbx;
+        private System.Windows.Forms.Button stop_timer_btn;
+        private System.Windows.Forms.Button reset_timer_btn;
     }
 }
 

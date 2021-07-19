@@ -26,9 +26,14 @@ namespace POMODORO
 
         System.Timers.Timer t;
         int h, m, s;
+
         public POMODORO()
         {
             InitializeComponent();
+            start_timer_btn.Visible = false;
+            timer_txbx.Visible = false;
+            stop_timer_btn.Visible = false;
+            reset_timer_btn.Visible = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -68,6 +73,7 @@ namespace POMODORO
         private void start_btn_Click(object sender, EventArgs e)
         {
             invisibleMain();
+            visibleSecondForm();
 
         }
 
@@ -82,6 +88,19 @@ namespace POMODORO
             Application.DoEvents();
         }
 
+        private void stop_timer_btn_Click(object sender, EventArgs e)
+        {
+            t.Stop();
+        }
+
+        private void reset_timer_btn_Click(object sender, EventArgs e)
+        {
+            timer_txbx.Text = "00:00:00";
+            s = 0;
+            m = 0;
+            h = 0;
+        }
+
         private void invisibleMain()
         {
             title_lbl.Visible = false;
@@ -89,6 +108,14 @@ namespace POMODORO
 
             start_btn.Visible = false;
             quit_btn.Visible = false;
+        }
+
+        private void visibleSecondForm()
+        {
+            start_timer_btn.Visible = true;
+            timer_txbx.Visible = true;
+            stop_timer_btn.Visible = true;
+            reset_timer_btn.Visible = true;
         }
 
     }
