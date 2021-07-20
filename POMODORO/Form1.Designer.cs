@@ -174,7 +174,7 @@ namespace POMODORO
             this.Resume_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Resume_btn.Font = new System.Drawing.Font("MS Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Resume_btn.ForeColor = System.Drawing.Color.White;
-            this.Resume_btn.Location = new System.Drawing.Point(126, 316);
+            this.Resume_btn.Location = new System.Drawing.Point(126, 256);
             this.Resume_btn.Name = "Resume_btn";
             this.Resume_btn.Size = new System.Drawing.Size(174, 54);
             this.Resume_btn.TabIndex = 3;

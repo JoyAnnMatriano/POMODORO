@@ -82,6 +82,7 @@ namespace POMODORO
         private void start_timer_btn_Click(object sender, EventArgs e)
         {
             t.Start();
+            start_timer_btn.Visible = false;
         }
 
         private void POMODORO_FormClosing(object sender, FormClosingEventArgs e)
