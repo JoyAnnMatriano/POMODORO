@@ -38,7 +38,6 @@ namespace POMODORO
             this.stop_timer_btn = new System.Windows.Forms.Button();
             this.reset_timer_btn = new System.Windows.Forms.Button();
             this.back_main_btn = new System.Windows.Forms.Button();
-            this.Resume_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // title_lbl
@@ -167,21 +166,6 @@ namespace POMODORO
             this.back_main_btn.UseVisualStyleBackColor = true;
             this.back_main_btn.Click += new System.EventHandler(this.main_menu);
             // 
-            // Resume_btn
-            // 
-            this.Resume_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Resume_btn.FlatAppearance.BorderSize = 3;
-            this.Resume_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Resume_btn.Font = new System.Drawing.Font("MS Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resume_btn.ForeColor = System.Drawing.Color.White;
-            this.Resume_btn.Location = new System.Drawing.Point(126, 256);
-            this.Resume_btn.Name = "Resume_btn";
-            this.Resume_btn.Size = new System.Drawing.Size(174, 54);
-            this.Resume_btn.TabIndex = 3;
-            this.Resume_btn.Text = "RESUME";
-            this.Resume_btn.UseVisualStyleBackColor = true;
-            this.Resume_btn.Click += new System.EventHandler(this.resume_timer_btn_Click);
-            // 
             // POMODORO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -192,7 +176,6 @@ namespace POMODORO
             this.Controls.Add(this.reset_timer_btn);
             this.Controls.Add(this.stop_timer_btn);
             this.Controls.Add(this.back_main_btn);
-            this.Controls.Add(this.Resume_btn);
             this.Controls.Add(this.start_timer_btn);
             this.Controls.Add(this.quit_btn);
             this.Controls.Add(this.start_btn);
@@ -220,7 +203,6 @@ namespace POMODORO
         private System.Windows.Forms.Button stop_timer_btn;
         private System.Windows.Forms.Button reset_timer_btn;
         private System.Windows.Forms.Button back_main_btn;
-        private System.Windows.Forms.Button Resume_btn;
     }
 }
 

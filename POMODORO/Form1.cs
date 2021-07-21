@@ -35,7 +35,6 @@ namespace POMODORO
             stop_timer_btn.Visible = false;
             reset_timer_btn.Visible = false;
             back_main_btn.Visible = false;
-            Resume_btn.Visible = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -82,7 +81,12 @@ namespace POMODORO
         private void start_timer_btn_Click(object sender, EventArgs e)
         {
             t.Start();
-            start_timer_btn.Visible = false;
+            
+            if (start_timer_btn.Text == "START")
+            {
+                start_timer_btn.Text = "RESUME";
+            }
+            start_timer_btn.Text = "START";
         }
 
         private void POMODORO_FormClosing(object sender, FormClosingEventArgs e)
