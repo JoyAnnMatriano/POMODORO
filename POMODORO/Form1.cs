@@ -138,6 +138,11 @@ namespace POMODORO
             start_btn.Visible = false;
         }
 
+        private void pick_color_click(object sender, EventArgs e)
+        {
+
+        }
+
         private void invisibleSecondForm()
         {
             start_timer_btn.Visible = false;
