@@ -198,7 +198,7 @@ namespace POMODORO
             // 
             // color1
             // 
-            this.color1.BackColor = System.Drawing.Color.Sienna;
+            this.color1.BackColor = System.Drawing.Color.White;
             this.color1.FlatAppearance.BorderSize = 3;
             this.color1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.color1.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -210,7 +210,7 @@ namespace POMODORO
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button1.BackColor = System.Drawing.Color.DimGray;
             this.button1.FlatAppearance.BorderSize = 3;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -222,7 +222,7 @@ namespace POMODORO
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.LightSalmon;
+            this.button2.BackColor = System.Drawing.Color.Maroon;
             this.button2.FlatAppearance.BorderSize = 3;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -234,7 +234,7 @@ namespace POMODORO
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.LightSalmon;
+            this.button3.BackColor = System.Drawing.Color.SandyBrown;
             this.button3.FlatAppearance.BorderSize = 3;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -246,7 +246,7 @@ namespace POMODORO
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.LightSalmon;
+            this.button4.BackColor = System.Drawing.Color.Tan;
             this.button4.FlatAppearance.BorderSize = 3;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -258,7 +258,7 @@ namespace POMODORO
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.LightSalmon;
+            this.button5.BackColor = System.Drawing.Color.NavajoWhite;
             this.button5.FlatAppearance.BorderSize = 3;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -270,7 +270,7 @@ namespace POMODORO
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.LightSalmon;
+            this.button6.BackColor = System.Drawing.Color.DarkKhaki;
             this.button6.FlatAppearance.BorderSize = 3;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -282,7 +282,7 @@ namespace POMODORO
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.LightSalmon;
+            this.button7.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.button7.FlatAppearance.BorderSize = 3;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -294,7 +294,7 @@ namespace POMODORO
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.LightSalmon;
+            this.button8.BackColor = System.Drawing.Color.RosyBrown;
             this.button8.FlatAppearance.BorderSize = 3;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.ForeColor = System.Drawing.Color.WhiteSmoke;
