@@ -306,7 +306,7 @@ namespace POMODORO
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.LightSalmon;
+            this.button9.BackColor = System.Drawing.Color.LightCoral;
             this.button9.FlatAppearance.BorderSize = 3;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -318,7 +318,7 @@ namespace POMODORO
             // 
             // button10
             // 
-            this.button10.BackColor = System.Drawing.Color.LightSalmon;
+            this.button10.BackColor = System.Drawing.Color.Chocolate;
             this.button10.FlatAppearance.BorderSize = 3;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -330,7 +330,7 @@ namespace POMODORO
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.Color.LightSalmon;
+            this.button11.BackColor = System.Drawing.Color.Bisque;
             this.button11.FlatAppearance.BorderSize = 3;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -342,7 +342,7 @@ namespace POMODORO
             // 
             // button12
             // 
-            this.button12.BackColor = System.Drawing.Color.LightSalmon;
+            this.button12.BackColor = System.Drawing.Color.DarkOrange;
             this.button12.FlatAppearance.BorderSize = 3;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -354,7 +354,7 @@ namespace POMODORO
             // 
             // button13
             // 
-            this.button13.BackColor = System.Drawing.Color.LightSalmon;
+            this.button13.BackColor = System.Drawing.Color.DarkSlateGray;
             this.button13.FlatAppearance.BorderSize = 3;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.ForeColor = System.Drawing.Color.WhiteSmoke;
