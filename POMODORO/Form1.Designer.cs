@@ -40,19 +40,19 @@ namespace POMODORO
             this.back_main_btn = new System.Windows.Forms.Button();
             this.pick_color = new System.Windows.Forms.Button();
             this.color1 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
+            this.color2 = new System.Windows.Forms.Button();
+            this.color3 = new System.Windows.Forms.Button();
+            this.color4 = new System.Windows.Forms.Button();
+            this.color5 = new System.Windows.Forms.Button();
+            this.color6 = new System.Windows.Forms.Button();
+            this.color7 = new System.Windows.Forms.Button();
+            this.color8 = new System.Windows.Forms.Button();
+            this.color9 = new System.Windows.Forms.Button();
+            this.color10 = new System.Windows.Forms.Button();
+            this.color11 = new System.Windows.Forms.Button();
+            this.color12 = new System.Windows.Forms.Button();
+            this.color13 = new System.Windows.Forms.Button();
+            this.color14 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // title_lbl
@@ -198,171 +198,172 @@ namespace POMODORO
             // 
             // color1
             // 
-            this.color1.BackColor = System.Drawing.Color.White;
+            this.color1.BackColor = System.Drawing.Color.Navy;
             this.color1.FlatAppearance.BorderSize = 3;
             this.color1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.color1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.color1.ForeColor = System.Drawing.Color.White;
             this.color1.Location = new System.Drawing.Point(151, 62);
             this.color1.Name = "color1";
             this.color1.Size = new System.Drawing.Size(27, 28);
             this.color1.TabIndex = 5;
             this.color1.UseVisualStyleBackColor = false;
+            this.color1.Click += new System.EventHandler(this.color1_Click);
             // 
-            // button1
+            // color2
             // 
-            this.button1.BackColor = System.Drawing.Color.DimGray;
-            this.button1.FlatAppearance.BorderSize = 3;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.Location = new System.Drawing.Point(184, 62);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(27, 28);
-            this.button1.TabIndex = 5;
-            this.button1.UseVisualStyleBackColor = false;
+            this.color2.BackColor = System.Drawing.Color.DimGray;
+            this.color2.FlatAppearance.BorderSize = 3;
+            this.color2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.color2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.color2.Location = new System.Drawing.Point(184, 62);
+            this.color2.Name = "color2";
+            this.color2.Size = new System.Drawing.Size(27, 28);
+            this.color2.TabIndex = 5;
+            this.color2.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // color3
             // 
-            this.button2.BackColor = System.Drawing.Color.Maroon;
-            this.button2.FlatAppearance.BorderSize = 3;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button2.Location = new System.Drawing.Point(217, 62);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(27, 28);
-            this.button2.TabIndex = 5;
-            this.button2.UseVisualStyleBackColor = false;
+            this.color3.BackColor = System.Drawing.Color.Maroon;
+            this.color3.FlatAppearance.BorderSize = 3;
+            this.color3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.color3.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.color3.Location = new System.Drawing.Point(217, 62);
+            this.color3.Name = "color3";
+            this.color3.Size = new System.Drawing.Size(27, 28);
+            this.color3.TabIndex = 5;
+            this.color3.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // color4
             // 
-            this.button3.BackColor = System.Drawing.Color.SandyBrown;
-            this.button3.FlatAppearance.BorderSize = 3;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button3.Location = new System.Drawing.Point(250, 62);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(27, 28);
-            this.button3.TabIndex = 5;
-            this.button3.UseVisualStyleBackColor = false;
+            this.color4.BackColor = System.Drawing.Color.SandyBrown;
+            this.color4.FlatAppearance.BorderSize = 3;
+            this.color4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.color4.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.color4.Location = new System.Drawing.Point(250, 62);
+            this.color4.Name = "color4";
+            this.color4.Size = new System.Drawing.Size(27, 28);
+            this.color4.TabIndex = 5;
+            this.color4.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // color5
             // 
-            this.button4.BackColor = System.Drawing.Color.Tan;
-            this.button4.FlatAppearance.BorderSize = 3;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button4.Location = new System.Drawing.Point(283, 62);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(27, 28);
-            this.button4.TabIndex = 5;
-            this.button4.UseVisualStyleBackColor = false;
+            this.color5.BackColor = System.Drawing.Color.Tan;
+            this.color5.FlatAppearance.BorderSize = 3;
+            this.color5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.color5.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.color5.Location = new System.Drawing.Point(283, 62);
+            this.color5.Name = "color5";
+            this.color5.Size = new System.Drawing.Size(27, 28);
+            this.color5.TabIndex = 5;
+            this.color5.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // color6
             // 
-            this.button5.BackColor = System.Drawing.Color.NavajoWhite;
-            this.button5.FlatAppearance.BorderSize = 3;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button5.Location = new System.Drawing.Point(316, 62);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(27, 28);
-            this.button5.TabIndex = 5;
-            this.button5.UseVisualStyleBackColor = false;
+            this.color6.BackColor = System.Drawing.Color.NavajoWhite;
+            this.color6.FlatAppearance.BorderSize = 3;
+            this.color6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.color6.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.color6.Location = new System.Drawing.Point(316, 62);
+            this.color6.Name = "color6";
+            this.color6.Size = new System.Drawing.Size(27, 28);
+            this.color6.TabIndex = 5;
+            this.color6.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // color7
             // 
-            this.button6.BackColor = System.Drawing.Color.DarkKhaki;
-            this.button6.FlatAppearance.BorderSize = 3;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button6.Location = new System.Drawing.Point(349, 62);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(27, 28);
-            this.button6.TabIndex = 5;
-            this.button6.UseVisualStyleBackColor = false;
+            this.color7.BackColor = System.Drawing.Color.DarkKhaki;
+            this.color7.FlatAppearance.BorderSize = 3;
+            this.color7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.color7.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.color7.Location = new System.Drawing.Point(349, 62);
+            this.color7.Name = "color7";
+            this.color7.Size = new System.Drawing.Size(27, 28);
+            this.color7.TabIndex = 5;
+            this.color7.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // color8
             // 
-            this.button7.BackColor = System.Drawing.Color.DarkOliveGreen;
-            this.button7.FlatAppearance.BorderSize = 3;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button7.Location = new System.Drawing.Point(151, 96);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(27, 28);
-            this.button7.TabIndex = 5;
-            this.button7.UseVisualStyleBackColor = false;
+            this.color8.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.color8.FlatAppearance.BorderSize = 3;
+            this.color8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.color8.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.color8.Location = new System.Drawing.Point(151, 96);
+            this.color8.Name = "color8";
+            this.color8.Size = new System.Drawing.Size(27, 28);
+            this.color8.TabIndex = 5;
+            this.color8.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // color9
             // 
-            this.button8.BackColor = System.Drawing.Color.RosyBrown;
-            this.button8.FlatAppearance.BorderSize = 3;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button8.Location = new System.Drawing.Point(184, 96);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(27, 28);
-            this.button8.TabIndex = 5;
-            this.button8.UseVisualStyleBackColor = false;
+            this.color9.BackColor = System.Drawing.Color.RosyBrown;
+            this.color9.FlatAppearance.BorderSize = 3;
+            this.color9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.color9.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.color9.Location = new System.Drawing.Point(184, 96);
+            this.color9.Name = "color9";
+            this.color9.Size = new System.Drawing.Size(27, 28);
+            this.color9.TabIndex = 5;
+            this.color9.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // color10
             // 
-            this.button9.BackColor = System.Drawing.Color.LightCoral;
-            this.button9.FlatAppearance.BorderSize = 3;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button9.Location = new System.Drawing.Point(217, 96);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(27, 28);
-            this.button9.TabIndex = 5;
-            this.button9.UseVisualStyleBackColor = false;
+            this.color10.BackColor = System.Drawing.Color.LightCoral;
+            this.color10.FlatAppearance.BorderSize = 3;
+            this.color10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.color10.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.color10.Location = new System.Drawing.Point(217, 96);
+            this.color10.Name = "color10";
+            this.color10.Size = new System.Drawing.Size(27, 28);
+            this.color10.TabIndex = 5;
+            this.color10.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // color11
             // 
-            this.button10.BackColor = System.Drawing.Color.Chocolate;
-            this.button10.FlatAppearance.BorderSize = 3;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button10.Location = new System.Drawing.Point(250, 96);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(27, 28);
-            this.button10.TabIndex = 5;
-            this.button10.UseVisualStyleBackColor = false;
+            this.color11.BackColor = System.Drawing.Color.Chocolate;
+            this.color11.FlatAppearance.BorderSize = 3;
+            this.color11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.color11.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.color11.Location = new System.Drawing.Point(250, 96);
+            this.color11.Name = "color11";
+            this.color11.Size = new System.Drawing.Size(27, 28);
+            this.color11.TabIndex = 5;
+            this.color11.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // color12
             // 
-            this.button11.BackColor = System.Drawing.Color.Bisque;
-            this.button11.FlatAppearance.BorderSize = 3;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button11.Location = new System.Drawing.Point(283, 96);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(27, 28);
-            this.button11.TabIndex = 5;
-            this.button11.UseVisualStyleBackColor = false;
+            this.color12.BackColor = System.Drawing.Color.Bisque;
+            this.color12.FlatAppearance.BorderSize = 3;
+            this.color12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.color12.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.color12.Location = new System.Drawing.Point(283, 96);
+            this.color12.Name = "color12";
+            this.color12.Size = new System.Drawing.Size(27, 28);
+            this.color12.TabIndex = 5;
+            this.color12.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // color13
             // 
-            this.button12.BackColor = System.Drawing.Color.DarkOrange;
-            this.button12.FlatAppearance.BorderSize = 3;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button12.Location = new System.Drawing.Point(316, 96);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(27, 28);
-            this.button12.TabIndex = 5;
-            this.button12.UseVisualStyleBackColor = false;
+            this.color13.BackColor = System.Drawing.Color.DarkOrange;
+            this.color13.FlatAppearance.BorderSize = 3;
+            this.color13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.color13.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.color13.Location = new System.Drawing.Point(316, 96);
+            this.color13.Name = "color13";
+            this.color13.Size = new System.Drawing.Size(27, 28);
+            this.color13.TabIndex = 5;
+            this.color13.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // color14
             // 
-            this.button13.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.button13.FlatAppearance.BorderSize = 3;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button13.Location = new System.Drawing.Point(349, 96);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(27, 28);
-            this.button13.TabIndex = 5;
-            this.button13.UseVisualStyleBackColor = false;
+            this.color14.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.color14.FlatAppearance.BorderSize = 3;
+            this.color14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.color14.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.color14.Location = new System.Drawing.Point(349, 96);
+            this.color14.Name = "color14";
+            this.color14.Size = new System.Drawing.Size(27, 28);
+            this.color14.TabIndex = 5;
+            this.color14.UseVisualStyleBackColor = false;
             // 
             // POMODORO
             // 
@@ -370,19 +371,19 @@ namespace POMODORO
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(401, 557);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.color14);
+            this.Controls.Add(this.color13);
+            this.Controls.Add(this.color12);
+            this.Controls.Add(this.color11);
+            this.Controls.Add(this.color10);
+            this.Controls.Add(this.color9);
+            this.Controls.Add(this.color8);
+            this.Controls.Add(this.color7);
+            this.Controls.Add(this.color6);
+            this.Controls.Add(this.color5);
+            this.Controls.Add(this.color4);
+            this.Controls.Add(this.color3);
+            this.Controls.Add(this.color2);
             this.Controls.Add(this.color1);
             this.Controls.Add(this.timer_txbx);
             this.Controls.Add(this.reset_timer_btn);
@@ -418,19 +419,19 @@ namespace POMODORO
         private System.Windows.Forms.Button back_main_btn;
         private System.Windows.Forms.Button pick_color;
         private System.Windows.Forms.Button color1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button color2;
+        private System.Windows.Forms.Button color3;
+        private System.Windows.Forms.Button color4;
+        private System.Windows.Forms.Button color5;
+        private System.Windows.Forms.Button color6;
+        private System.Windows.Forms.Button color7;
+        private System.Windows.Forms.Button color8;
+        private System.Windows.Forms.Button color9;
+        private System.Windows.Forms.Button color10;
+        private System.Windows.Forms.Button color11;
+        private System.Windows.Forms.Button color12;
+        private System.Windows.Forms.Button color13;
+        private System.Windows.Forms.Button color14;
     }
 }
 

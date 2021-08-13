@@ -35,6 +35,8 @@ namespace POMODORO
             stop_timer_btn.Visible = false;
             reset_timer_btn.Visible = false;
             back_main_btn.Visible = false;
+            pick_color.Visible = false;
+            invisibleColors();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -140,6 +142,11 @@ namespace POMODORO
 
         private void pick_color_click(object sender, EventArgs e)
         {
+            visibleColors();
+        }
+
+        private void color1_Click(object sender, EventArgs e)
+        {
 
         }
 
@@ -158,7 +165,45 @@ namespace POMODORO
             stop_timer_btn.Visible = true;
             reset_timer_btn.Visible = true;
             back_main_btn.Visible = true;
+            pick_color.Visible = true;
         }
 
+        private void invisibleColors()
+        {
+            color1.Visible = false;
+            color2.Visible = false;
+            color3.Visible = false;
+            color4.Visible = false;
+            color5.Visible = false;
+            color6.Visible = false;
+            color7.Visible = false;
+            color8.Visible = false;
+            color8.Visible = false;
+            color9.Visible = false;
+            color10.Visible = false;
+            color11.Visible = false;
+            color12.Visible = false;
+            color13.Visible = false;
+            color14.Visible = false;
+        }
+
+        private void visibleColors()
+        {
+            color1.Visible = true;
+            color2.Visible = true;
+            color3.Visible = true;
+            color4.Visible = true;
+            color5.Visible = true;
+            color6.Visible = true;
+            color7.Visible = true;
+            color8.Visible = true;
+            color8.Visible = true;
+            color9.Visible = true;
+            color10.Visible = true;
+            color11.Visible = true;
+            color12.Visible = true;
+            color13.Visible = true;
+            color14.Visible = true;
+        }
     }
 }
