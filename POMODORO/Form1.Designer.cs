@@ -113,7 +113,7 @@ namespace POMODORO
             this.start_timer_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.start_timer_btn.Font = new System.Drawing.Font("MS Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.start_timer_btn.ForeColor = System.Drawing.Color.White;
-            this.start_timer_btn.Location = new System.Drawing.Point(126, 316);
+            this.start_timer_btn.Location = new System.Drawing.Point(126, 302);
             this.start_timer_btn.Name = "start_timer_btn";
             this.start_timer_btn.Size = new System.Drawing.Size(174, 54);
             this.start_timer_btn.TabIndex = 3;
@@ -143,7 +143,7 @@ namespace POMODORO
             this.stop_timer_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.stop_timer_btn.Font = new System.Drawing.Font("MS Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.stop_timer_btn.ForeColor = System.Drawing.Color.White;
-            this.stop_timer_btn.Location = new System.Drawing.Point(126, 376);
+            this.stop_timer_btn.Location = new System.Drawing.Point(126, 367);
             this.stop_timer_btn.Name = "stop_timer_btn";
             this.stop_timer_btn.Size = new System.Drawing.Size(174, 54);
             this.stop_timer_btn.TabIndex = 3;
@@ -198,7 +198,7 @@ namespace POMODORO
             // 
             // color1
             // 
-            this.color1.BackColor = System.Drawing.Color.Navy;
+            this.color1.BackColor = System.Drawing.Color.RosyBrown;
             this.color1.FlatAppearance.BorderSize = 3;
             this.color1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.color1.ForeColor = System.Drawing.Color.White;

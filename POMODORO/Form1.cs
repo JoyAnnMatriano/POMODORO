@@ -146,8 +146,19 @@ namespace POMODORO
         }
 
         private void color1_Click(object sender, EventArgs e)
-        {
+        {//rosy brown color
 
+            //Main Form
+            start_btn.BackColor = Color.RosyBrown;
+            quit_btn.BackColor = Color.RosyBrown;
+
+            //Second Form
+            start_timer_btn.BackColor = Color.RosyBrown;
+            timer_txbx.BackColor = Color.RosyBrown;
+            stop_timer_btn.BackColor = Color.RosyBrown;
+            reset_timer_btn.BackColor = Color.RosyBrown;
+            back_main_btn.BackColor = Color.RosyBrown;
+            pick_color.BackColor = Color.RosyBrown;
         }
 
         private void invisibleSecondForm()
