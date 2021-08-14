@@ -157,6 +157,10 @@ namespace POMODORO
             stop_timer_btn.Visible = false;
             reset_timer_btn.Visible = false;
             back_main_btn.Visible = false;
+
+            //colors pick
+            pick_color.Visible = false;
+            invisibleColors();
         }
         private void visibleSecondForm()
         {
