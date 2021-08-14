@@ -45,14 +45,6 @@ namespace POMODORO
             this.color4 = new System.Windows.Forms.Button();
             this.color5 = new System.Windows.Forms.Button();
             this.color6 = new System.Windows.Forms.Button();
-            this.color7 = new System.Windows.Forms.Button();
-            this.color8 = new System.Windows.Forms.Button();
-            this.color9 = new System.Windows.Forms.Button();
-            this.color10 = new System.Windows.Forms.Button();
-            this.color11 = new System.Windows.Forms.Button();
-            this.color12 = new System.Windows.Forms.Button();
-            this.color13 = new System.Windows.Forms.Button();
-            this.color14 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // title_lbl
@@ -220,6 +212,7 @@ namespace POMODORO
             this.color2.Size = new System.Drawing.Size(27, 28);
             this.color2.TabIndex = 5;
             this.color2.UseVisualStyleBackColor = false;
+            this.color2.Click += new System.EventHandler(this.color2_Click);
             // 
             // color3
             // 
@@ -232,6 +225,7 @@ namespace POMODORO
             this.color3.Size = new System.Drawing.Size(27, 28);
             this.color3.TabIndex = 5;
             this.color3.UseVisualStyleBackColor = false;
+            this.color3.Click += new System.EventHandler(this.color3_Click);
             // 
             // color4
             // 
@@ -244,10 +238,11 @@ namespace POMODORO
             this.color4.Size = new System.Drawing.Size(27, 28);
             this.color4.TabIndex = 5;
             this.color4.UseVisualStyleBackColor = false;
+            this.color4.Click += new System.EventHandler(this.color4_Click);
             // 
             // color5
             // 
-            this.color5.BackColor = System.Drawing.Color.Tan;
+            this.color5.BackColor = System.Drawing.Color.Navy;
             this.color5.FlatAppearance.BorderSize = 3;
             this.color5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.color5.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -256,10 +251,11 @@ namespace POMODORO
             this.color5.Size = new System.Drawing.Size(27, 28);
             this.color5.TabIndex = 5;
             this.color5.UseVisualStyleBackColor = false;
+            this.color5.Click += new System.EventHandler(this.color5_Click);
             // 
             // color6
             // 
-            this.color6.BackColor = System.Drawing.Color.NavajoWhite;
+            this.color6.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.color6.FlatAppearance.BorderSize = 3;
             this.color6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.color6.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -268,102 +264,7 @@ namespace POMODORO
             this.color6.Size = new System.Drawing.Size(27, 28);
             this.color6.TabIndex = 5;
             this.color6.UseVisualStyleBackColor = false;
-            // 
-            // color7
-            // 
-            this.color7.BackColor = System.Drawing.Color.DarkKhaki;
-            this.color7.FlatAppearance.BorderSize = 3;
-            this.color7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.color7.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.color7.Location = new System.Drawing.Point(349, 62);
-            this.color7.Name = "color7";
-            this.color7.Size = new System.Drawing.Size(27, 28);
-            this.color7.TabIndex = 5;
-            this.color7.UseVisualStyleBackColor = false;
-            // 
-            // color8
-            // 
-            this.color8.BackColor = System.Drawing.Color.DarkOliveGreen;
-            this.color8.FlatAppearance.BorderSize = 3;
-            this.color8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.color8.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.color8.Location = new System.Drawing.Point(151, 96);
-            this.color8.Name = "color8";
-            this.color8.Size = new System.Drawing.Size(27, 28);
-            this.color8.TabIndex = 5;
-            this.color8.UseVisualStyleBackColor = false;
-            // 
-            // color9
-            // 
-            this.color9.BackColor = System.Drawing.Color.RosyBrown;
-            this.color9.FlatAppearance.BorderSize = 3;
-            this.color9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.color9.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.color9.Location = new System.Drawing.Point(184, 96);
-            this.color9.Name = "color9";
-            this.color9.Size = new System.Drawing.Size(27, 28);
-            this.color9.TabIndex = 5;
-            this.color9.UseVisualStyleBackColor = false;
-            // 
-            // color10
-            // 
-            this.color10.BackColor = System.Drawing.Color.LightCoral;
-            this.color10.FlatAppearance.BorderSize = 3;
-            this.color10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.color10.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.color10.Location = new System.Drawing.Point(217, 96);
-            this.color10.Name = "color10";
-            this.color10.Size = new System.Drawing.Size(27, 28);
-            this.color10.TabIndex = 5;
-            this.color10.UseVisualStyleBackColor = false;
-            // 
-            // color11
-            // 
-            this.color11.BackColor = System.Drawing.Color.Chocolate;
-            this.color11.FlatAppearance.BorderSize = 3;
-            this.color11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.color11.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.color11.Location = new System.Drawing.Point(250, 96);
-            this.color11.Name = "color11";
-            this.color11.Size = new System.Drawing.Size(27, 28);
-            this.color11.TabIndex = 5;
-            this.color11.UseVisualStyleBackColor = false;
-            // 
-            // color12
-            // 
-            this.color12.BackColor = System.Drawing.Color.Bisque;
-            this.color12.FlatAppearance.BorderSize = 3;
-            this.color12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.color12.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.color12.Location = new System.Drawing.Point(283, 96);
-            this.color12.Name = "color12";
-            this.color12.Size = new System.Drawing.Size(27, 28);
-            this.color12.TabIndex = 5;
-            this.color12.UseVisualStyleBackColor = false;
-            // 
-            // color13
-            // 
-            this.color13.BackColor = System.Drawing.Color.DarkOrange;
-            this.color13.FlatAppearance.BorderSize = 3;
-            this.color13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.color13.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.color13.Location = new System.Drawing.Point(316, 96);
-            this.color13.Name = "color13";
-            this.color13.Size = new System.Drawing.Size(27, 28);
-            this.color13.TabIndex = 5;
-            this.color13.UseVisualStyleBackColor = false;
-            // 
-            // color14
-            // 
-            this.color14.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.color14.FlatAppearance.BorderSize = 3;
-            this.color14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.color14.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.color14.Location = new System.Drawing.Point(349, 96);
-            this.color14.Name = "color14";
-            this.color14.Size = new System.Drawing.Size(27, 28);
-            this.color14.TabIndex = 5;
-            this.color14.UseVisualStyleBackColor = false;
+            this.color6.Click += new System.EventHandler(this.color6_Click);
             // 
             // POMODORO
             // 
@@ -371,14 +272,6 @@ namespace POMODORO
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(401, 557);
-            this.Controls.Add(this.color14);
-            this.Controls.Add(this.color13);
-            this.Controls.Add(this.color12);
-            this.Controls.Add(this.color11);
-            this.Controls.Add(this.color10);
-            this.Controls.Add(this.color9);
-            this.Controls.Add(this.color8);
-            this.Controls.Add(this.color7);
             this.Controls.Add(this.color6);
             this.Controls.Add(this.color5);
             this.Controls.Add(this.color4);
@@ -424,14 +317,6 @@ namespace POMODORO
         private System.Windows.Forms.Button color4;
         private System.Windows.Forms.Button color5;
         private System.Windows.Forms.Button color6;
-        private System.Windows.Forms.Button color7;
-        private System.Windows.Forms.Button color8;
-        private System.Windows.Forms.Button color9;
-        private System.Windows.Forms.Button color10;
-        private System.Windows.Forms.Button color11;
-        private System.Windows.Forms.Button color12;
-        private System.Windows.Forms.Button color13;
-        private System.Windows.Forms.Button color14;
     }
 }
 
