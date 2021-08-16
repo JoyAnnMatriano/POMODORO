@@ -71,6 +71,7 @@ namespace POMODORO
 
         private void quit_btn_Click(object sender, EventArgs e)
         {
+            timeSave();
             Application.Exit();
         }
 
@@ -263,6 +264,7 @@ namespace POMODORO
             StreamWriter outputFile = File.AppendText("YourProgress.txt");
             outputFile.WriteLine(DateTime.Now);
             outputFile.WriteLine("======================================================");
+            outputFile.WriteLine(timer_txbx.Text);
             outputFile.WriteLine("=======================================================");
             outputFile.Close();
         }
