@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Timers;
+using System.IO;
 
 namespace POMODORO
 {
@@ -257,6 +258,20 @@ namespace POMODORO
             invisibleColors();
         }
         //========================================================Colors END
+        private void timeSave()
+        {
+            StreamWriter outputFile = File.AppendText("YourProgress.txt");
+            outputFile.WriteLine(DateTime.Now);
+            outputFile.WriteLine("======================================================");
+            outputFile.WriteLine("=======================================================");
+            outputFile.Close();
+        }
+        //==================================save data
+
+
+
+
+        //==================================save data END
 
         private void invisibleSecondForm()
         {
